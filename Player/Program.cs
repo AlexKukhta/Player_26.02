@@ -44,17 +44,12 @@ namespace Player
 
             await player.Play();
             player.VolumeUp();
-
             await player.Play();
             player.Lock();
-
             await player.Play();
             player.UnLock();
-
             player.Stop();
-
             player.SaveAsPlaylist("c:\\WavSongs\\songs.xml");
-
             player.Dispose();
         }
 
